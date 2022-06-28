@@ -1,7 +1,24 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
+// Run before every test
+// - assign contract
+// - Mint
+// Create address
+
+
+
 describe("Greeter", function () {
+  // mint
+  // uri
+  // passtime
+  // feed
+  // play
+  // image
+  // name
+  // check upkeep
+  // perform upkeep
+  
   it("Should return the new greeting once it's changed", async function () {
     const Greeter = await ethers.getContractFactory("Greeter");
     const greeter = await Greeter.deploy("Hello, world!");
